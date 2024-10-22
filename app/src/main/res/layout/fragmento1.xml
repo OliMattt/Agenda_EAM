@@ -13,12 +13,38 @@
         android:layout_height="wrap_content"
         android:text="Nome: " />
 
+    <EditText
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:text="Escreva o Nome da Tarefa:">
+
+        <requestFocus />
+    </EditText>
+
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Descricao: " />
+
+    <EditText
+        android:id="@+id/linearLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:inputType="textMultiLine"
+        android:text="Escreva uma descricao:">
+
+        <requestFocus />
+
+    </EditText>
+
 
     <Button
         android:id="@+id/button3"

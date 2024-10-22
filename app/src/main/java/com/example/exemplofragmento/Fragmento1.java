@@ -40,6 +40,18 @@ public class Fragmento1 extends Fragment {
         Botao1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                /*
+                AbreDialog = (Button) findViewById(R.id."Botao ID");
+                AbreDialog.setOnClickListener(new View.OnCLickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent intent = new Intent("Digite o Nome da Tarefa:");
+                        startActivity(intent);
+                    }
+                }
+                 */
+
                 Log.d("prints", "botao 1");
                 TextView txt = (TextView) Fragmento2.frgto2.findViewById(R.id.texto_frg2);
                 if (txt != null) txt.setText("Apertou botão 1");
@@ -49,6 +61,17 @@ public class Fragmento1 extends Fragment {
         Botao2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                /*
+                AbreDialog = (Button) findViewById(R.id."Botao ID");
+                AbreDialog.setOnClickListener(new View.OnCLickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent intent = new Intent("Digite a Descricao:");
+                        startActivity(intent);
+                    }
+                }
+                 */
                 Log.d("prints", "botao 2");
                 TextView txt = (TextView) Fragmento2.frgto2.findViewById(R.id.texto_frg2);
                 if (txt != null) txt.setText("Apertou botão 2");
@@ -59,7 +82,18 @@ public class Fragmento1 extends Fragment {
         Botao3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Log.d("prints", "botao 2");
+                /*
+                AbreDialog = (Button) findViewById(R.id."Botao ID");
+                AbreDialog.setOnClickListener(new View.OnCLickListener()
+                {
+                    public void onClick(View v)
+                    {
+                        Intent intent = new Intent("Digite o horario da Tarefa:");
+                        startActivity(intent);
+                    }
+                }
+                 */
+                Log.d("prints", "botao 3");
                 TextView txt = (TextView) Fragmento2.frgto2.findViewById(R.id.texto_frg2);
                 if (txt != null) txt.setText("Apertou botão 3");
             }
